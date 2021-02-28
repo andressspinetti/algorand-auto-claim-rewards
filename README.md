@@ -1,5 +1,5 @@
 # Algorand automate claim rewards
-A docker-compose that will help you automate claiming your Algorand stake rewards. For this repo, I used the basic examples provided by the Algorand developer team.
+A docker-compose project that will help you automate claiming your Algorand stake rewards. For this repo, I used the basic examples provided by the Algorand developer team.
 
 By default, a cron job will run every 6 hours when you start the docker container transferring a minimum amount of Algo to the address you want to claim your stake rewards.
 ## Requirements
