@@ -1,0 +1,2 @@
+# 0 */12 * * * Every 12 hours
+0 */6 * * * python3 /src/send_minimum_tx.py >> /var/log/send_minimum_tx.log 2>&1

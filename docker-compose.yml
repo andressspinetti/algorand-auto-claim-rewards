@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  algorand-compound:
+    image: algorand-compound
+    build: ./
+    env_file: ./.env
