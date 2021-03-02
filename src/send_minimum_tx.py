@@ -6,7 +6,6 @@ from algosdk import kmd
 from algosdk.v2client import algod
 from algosdk import account
 from algosdk import mnemonic
-import json
 
 # Setup HTTP client w/guest key provided by PureStake
 algod_purestake_address = "https://mainnet-algorand.api.purestake.io/ps2"
@@ -23,7 +22,6 @@ algodclient = algod.AlgodClient(algod_purestake_token, algod_purestake_address, 
 # get suggested parameters from Algod
 
 params = algodclient.suggested_params()
-gen = params.gen
 gh = params.gh
 first_valid_round = params.first
 last_valid_round = params.last
